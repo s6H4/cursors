@@ -26,7 +26,7 @@ let
 in
   getFrom
     "https://github.com/guillaumeboehm/Nordzy-cursors/releases/download/v2.4.0/Nordzy-cursors-white.tar.gz"
-    "02bwmwdrdjdvchblfwxyw5sqf16dpqzp6zlvrphbqsf11d62j8i8"
+    "sha256-WHNkEZL3yJaS8TNcUllph5MHSCwPcCgxQvP6Zc+nT/Y="
     "Nordzy-cursors-white";
 };
 }

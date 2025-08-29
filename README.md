@@ -21,7 +21,13 @@
 - Получи хеш:
 
 ```sh
-nix-prefetch-url --unpack "URL_АРХИВА"
+nix-prefetch-url URL_Архива
+```
+
+- Конвертировать в SRI (по желанию)
+
+```
+nix store prefetch-file --json URL_Архива | jq -r '.hash'
 ```
 
 - Создай файл по [образцу](template/home.nix)
