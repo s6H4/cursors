@@ -30,4 +30,4 @@ nix-prefetch-url URL_Архива
 nix store prefetch-file --json URL_Архива | jq -r '.hash'
 ```
 
-- Создайте файл по [образцу](template/home.nix)
+- Создайте файл по [образцу](https://github.com/s6H4/cursors/tree/main/template/home.nix)
