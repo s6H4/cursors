@@ -18,16 +18,16 @@
 
 - Найди .tar.gz архив с курсором.
 
-- Получи хеш:
+- Получите хеш:
 
 ```sh
 nix-prefetch-url URL_Архива
 ```
 
-- Конвертировать в SRI (по желанию)
+- Конвертируйте в SRI (по желанию)
 
 ```
 nix store prefetch-file --json URL_Архива | jq -r '.hash'
 ```
 
-- Создай файл по [образцу](template/home.nix)
+- Создайте файл по [образцу](template/home.nix)
