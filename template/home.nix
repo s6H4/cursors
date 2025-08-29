@@ -1,11 +1,11 @@
 {  
-pkgs, 
-... 
+  pkgs, 
+  ... 
 }: 
 {
 home = {
 stateVersion = "Версия";
-username = "Твой-Юзернейм";
+username = "Юзернейм";
 homeDirectory = "Домашняя-Директория";
 pointerCursor =
 let
@@ -25,7 +25,7 @@ let
     };
 in
   getFrom
-    "https://github.com/Твой-Юзернейм/Твой-Репозиторий/raw/main/Директория-В-Репозитории/Название-Архива.tar.gz"
+    "https://github.com/Юзернейм/Репозиторий/raw/main/Директория-В-Репозитории/Название-Архива.tar.gz"
     "Полученный-Хеш"
     "Название-Папки-Курсора (без .tar.gz)";
 };
