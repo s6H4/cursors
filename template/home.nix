@@ -3,13 +3,13 @@
   ... 
 }: 
 {
-home = {
-stateVersion = "Версия";
-username = "Юзернейм";
-homeDirectory = "Домашняя-Директория";
-pointerCursor =
-let
-  getFrom = url: hash: name: {
+  home = {
+  stateVersion = "Версия";
+  username = "Юзернейм";
+  homeDirectory = "Домашняя-Директория";
+  pointerCursor =
+  let
+    getFrom = url: hash: name: {
       gtk.enable = false;
       x11.enable = true;
       name = name;
@@ -23,10 +23,10 @@ let
           }} $out/share/icons/${name}
       '';
     };
-in
+  in
   getFrom
     "https://github.com/Юзернейм/Репозиторий/raw/main/Директория-В-Репозитории/Название-Архива.tar.gz"
     "Полученный-Хеш"
     "Название-Папки-Курсора (без .tar.gz)";
-};
+  };
 }

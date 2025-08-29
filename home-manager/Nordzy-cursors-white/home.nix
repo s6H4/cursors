@@ -3,13 +3,13 @@
   ... 
 }: 
 {
-home = {
-stateVersion = "25.11";
-username = "user";
-homeDirectory = "/home/user";
-pointerCursor =
-let
-  getFrom = url: hash: name: {
+  home = {
+  stateVersion = "25.11";
+  username = "user";
+  homeDirectory = "/home/user";
+  pointerCursor =
+  let
+    getFrom = url: hash: name: {
       gtk.enable = false;
       x11.enable = true;
       name = name;
@@ -23,10 +23,10 @@ let
           }} $out/share/icons/${name}
       '';
     };
-in
+  in
   getFrom
     "https://github.com/guillaumeboehm/Nordzy-cursors/releases/download/v2.4.0/Nordzy-cursors-white.tar.gz"
     "sha256-WHNkEZL3yJaS8TNcUllph5MHSCwPcCgxQvP6Zc+nT/Y="
     "Nordzy-cursors-white";
-};
+  };
 }
