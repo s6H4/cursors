@@ -25,8 +25,8 @@ let
     };
 in
   getFrom
-    "https://github.com/s6H4/cursors/raw/main/archives/Nordzy-cursors-white/Nordzy-cursors-white.tar.gz"
-    "051rhsmzshix1pvv8ww5a4w2k001bmhyvvr94y90ydik6p43a9pg"
+    "https://github.com/guillaumeboehm/Nordzy-cursors/releases/download/v2.4.0/Nordzy-cursors-white.tar.gz"
+    "02bwmwdrdjdvchblfwxyw5sqf16dpqzp6zlvrphbqsf11d62j8i8"
     "Nordzy-cursors-white";
 };
 }
